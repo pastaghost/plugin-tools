@@ -1,7 +1,7 @@
-version: "2"
+version: '2'
 services:
-  builder:
-    image: ghcr.io/ledgerhq/ledger-app-builder/ledger-app-builder:latest
-    volumes:
-      - ..:/plugin_dev
-    working_dir: /plugin_dev
+    builder:
+        image: pastaghost/ledger-app-builder:latest
+        volumes:
+            - ..:/thorswap-router-v2-plugin-dev
+        working_dir: /thorswap-router-v2-plugin-dev
