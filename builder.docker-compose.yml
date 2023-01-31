@@ -3,5 +3,5 @@ services:
     builder:
         image: pastaghost/ledger-app-builder:latest
         volumes:
-            - ..:/thorswap-router-v2-plugin-dev
-        working_dir: /thorswap-router-v2-plugin-dev
+            - ..:/thorswap-plugin-dev
+        working_dir: /thorswap-plugin-dev
